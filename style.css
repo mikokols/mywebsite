@@ -1,0 +1,139 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f4f4f4, #e6e9f0);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #004aad, #5b9df9);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #003580;
+}
+
+header h1 {
+    font-size: 2.2em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Navigation */
+nav {
+    background: #003580;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #5b9df9;
+    color: #003580;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 85%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    text-align: center;
+    color: #004aad;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Project & Certification Styling */
+.project, .certification {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover, .certification:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project img, .certification img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover, .certification img:hover {
+    transform: scale(1.05);
+}
+
+.project h3, .certification h3 {
+    margin-top: 10px;
+    color: #003580;
+    font-size: 1.5em;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    background: linear-gradient(to right, #5b9df9, #004aad);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #003580;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1em;
+    border-top: 4px solid #5b9df9;
+}
